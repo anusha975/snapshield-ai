@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: snapshield-ai
+    env: python
+    region: oregon
+    plan: free
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "streamlit run snapshield/app.py --server.port $PORT --server.address 0.0.0.0 --server.headless true"
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.9
+      - key: SNAPSHIELD_ENV
+        value: production

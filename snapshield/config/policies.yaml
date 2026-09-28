@@ -1,0 +1,52 @@
+# SnapShield AI Privacy Policy Definitions
+# Configurable rules for hybrid detection, risk scoring, and policy actions.
+
+version: "1.0.0"
+
+profiles:
+  STRICT:
+    description: "Maximum protection mode. Blocks high-risk documents and strictly redacts all PII/credentials."
+    block_threshold: 75.0
+    review_threshold: 45.0
+    allow_threshold: 15.0
+    actions_by_category:
+      CREDENTIALS: BLOCK
+      PAYMENT_CARD: REDACT
+      GOVERNMENT_ID: REDACT
+      HEALTH_INFO: REDACT
+      CONTACT_INFO: REDACT
+      INTERNAL_INFRA: BLOCK
+
+  BALANCED:
+    description: "Standard enterprise mode. Redacts sensitive PII and flags credentials."
+    block_threshold: 85.0
+    review_threshold: 60.0
+    allow_threshold: 30.0
+    actions_by_category:
+      CREDENTIALS: BLOCK
+      PAYMENT_CARD: REDACT
+      GOVERNMENT_ID: REDACT
+      HEALTH_INFO: REDACT
+      CONTACT_INFO: REDACT
+      INTERNAL_INFRA: REDACT
+
+  PERMISSIVE:
+    description: "Developer / testing mode. Highlights findings with minimal blocking."
+    block_threshold: 95.0
+    review_threshold: 75.0
+    allow_threshold: 50.0
+    actions_by_category:
+      CREDENTIALS: REDACT
+      PAYMENT_CARD: REDACT
+      GOVERNMENT_ID: REDACT
+      HEALTH_INFO: REDACT
+      CONTACT_INFO: ALLOW
+      INTERNAL_INFRA: REDACT
+
+risk_weights:
+  CREDENTIALS: 40.0
+  PAYMENT_CARD: 35.0
+  GOVERNMENT_ID: 30.0
+  HEALTH_INFO: 25.0
+  INTERNAL_INFRA: 20.0
+  CONTACT_INFO: 10.0

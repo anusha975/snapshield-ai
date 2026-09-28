@@ -1,0 +1,34 @@
+[
+  {
+    "id": "sample_finance_01",
+    "name": "Financial Transaction Notice (Synthetic)",
+    "description": "Contains synthetic credit card number (Luhn valid) and contact details.",
+    "content": "Dear Customer, your card 4532-0150-1234-5671 was billed $149.99 on 2026-09-20. For assistance, reach support at billing-ops@synthetic-corp.io or call 800-555-0199.",
+    "expected_categories": ["PAYMENT_CARD", "CONTACT_INFO"],
+    "expected_action": "REDACT"
+  },
+  {
+    "id": "sample_secret_leak_02",
+    "name": "Developer Config Leak (Synthetic)",
+    "description": "Contains synthetic API token and internal network address.",
+    "content": "export OPENAI_API_KEY=\"sk-syntheticSnapShieldTestKeyAlphaBeta99887766554433221100\"\nexport INTERNAL_DB_HOST=\"10.240.1.15\"\nexport PORT=\"5432\"",
+    "expected_categories": ["CREDENTIALS", "INTERNAL_INFRA"],
+    "expected_action": "BLOCK"
+  },
+  {
+    "id": "sample_hr_record_03",
+    "name": "Employee Onboarding Record (Synthetic)",
+    "description": "Contains synthetic SSN and employee email.",
+    "content": "Employee Full Name: Jane Doe\nDepartment: Logistics Engineering\nUS SSN: 219-45-6789\nWork Email: jane.doe@synthetic-logistics.internal\nEmergency Phone: (555) 234-5678",
+    "expected_categories": ["GOVERNMENT_ID", "CONTACT_INFO"],
+    "expected_action": "REDACT"
+  },
+  {
+    "id": "sample_clean_prompt_04",
+    "name": "Clean Technical Query (No PII)",
+    "description": "Standard programming and architecture question free of sensitive data.",
+    "content": "Can you explain the differences between depth-first search and breadth-first search when traversing a directed acyclic graph?",
+    "expected_categories": [],
+    "expected_action": "ALLOW"
+  }
+]

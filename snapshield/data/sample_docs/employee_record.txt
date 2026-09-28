@@ -1,0 +1,41 @@
+================================================================================
+CONFIDENTIAL EMPLOYEE ONBOARDING & HR RECORD
+SNAPSHIELD ENTERPRISE SYSTEMS - INTERNAL HR PORTAL
+================================================================================
+
+EMPLOYEE IDENTIFICATION:
+------------------------
+Full Name:           Aarav Patel
+Employee ID:         EMP-88219
+Designation:         Senior Cloud Infrastructure Engineer
+Department:          Security & Systems Engineering
+Date of Joining:     15-March-2023
+Work Location:       Bengaluru Innovation Center
+
+RESIDENTIAL & CONTACT DETAILS:
+------------------------------
+Current Address:     Flat 402, Lotus Residency, 100 Feet Road, Indiranagar, Bengaluru, Karnataka 560038
+Mobile Phone:        +91 98765 43210
+Official Email:      aarav.patel.synthetic@snapshield-corp.org
+Emergency Contact:   +91 91234 56789 (Relation: Spouse)
+
+STATUTORY IDENTITY INFORMATION:
+-------------------------------
+National Aadhaar ID: 9999 9999 0019
+Income Tax PAN:      ABCPA1234F
+Passport Number:     Z9876543
+
+PAYROLL & DIRECT DEPOSIT DISBURSEMENT:
+--------------------------------------
+Bank Name:           HDFC Bank Limited
+Branch Name:         Indiranagar Branch, Bengaluru
+Account Holder:      Aarav Patel
+Savings Account No:  987654321012345
+Branch IFSC Code:    HDFC0001234
+Payment Routing:     NEFT / RTGS / IMPS Enabled
+
+DECLARATION:
+------------
+This record contains strictly confidential human resources data and must not
+be forwarded or transmitted to external AI endpoints without sanitization.
+================================================================================

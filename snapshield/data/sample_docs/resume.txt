@@ -1,0 +1,50 @@
+================================================================================
+CURRICULUM VITAE
+================================================================================
+
+Dr. Priyadarshini Rao
+Lead Machine Learning Systems Architect
+Address: 42 Silicon Vista Boulevard, HITEC City, Hyderabad, Telangana 500081
+Phone: +91 98450 12345 | Alternative: +91 98765 11223
+Email: priya.rao.synthetic@ai-research-lab.org
+LinkedIn: linkedin.com/in/priya-rao-synthetic-ai
+
+IDENTITY & VERIFICATION:
+------------------------
+National Aadhaar: 2345 6789 0124
+Tax ID (PAN):     BNZPR5678M
+
+EXECUTIVE SUMMARY:
+------------------
+Distinguished Systems Architect with 10+ years specializing in on-device AI acceleration,
+edge neural processing unit (NPU) compilation, and privacy-preserving machine learning.
+Experienced in deploying quantized transformer architectures for low-latency inference.
+
+CORE TECHNICAL COMPETENCIES:
+----------------------------
+• On-Device ML: ONNX Runtime, DirectML, QNN Execution Providers, INT8 Quantization
+• Deep Learning: Token Classification, BERT Transformers, Sequence Labeling, PyTorch
+• Security & Privacy: Differential Privacy, Automated PII Redaction, Cryptographic Checksums
+• Languages: Python, C++, Rust, CUDA, SQL
+
+PROFESSIONAL EXPERIENCE:
+------------------------
+1. Staff AI Systems Engineer | Synthetic Cloud Systems (2021 – Present)
+   - Architected local edge inference pipelines delivering sub-10ms token classification.
+   - Designed hardware abstraction layers supporting multi-backend NPU and GPU acceleration.
+   - Deployed automated data masking checkpoints protecting confidential enterprise workflows.
+
+2. Senior ML Research Scientist | Apollo AI Health Labs (2018 – 2021)
+   - Developed clinical NLP models for anonymizing patient admission records.
+   - Maintained HIPAA-compliant local execution environments preventing unredacted data leakage.
+
+EDUCATION:
+----------
+• Ph.D. in Computer Science | Indian Institute of Science (IISc), Bengaluru (2018)
+• B.Tech in Computer Engineering | National Institute of Technology (NIT), Trichy (2014)
+
+BANKING REFERENCE (Consulting Honorarium):
+------------------------------------------
+Primary Bank Account: 12345678901234
+Branch IFSC:          ICIC0000123
+================================================================================

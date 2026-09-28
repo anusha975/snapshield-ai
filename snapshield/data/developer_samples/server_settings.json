@@ -1,0 +1,12 @@
+{
+  "application": "SyntheticTelemetryGateway",
+  "version": "2.4.0",
+  "security": {
+    "api_key": "sec_key_syntheticDeveloperToken1234567890",
+    "jwt_token": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJhdXRoLnN5bnRoZXRpYy5pbyIsImV4cCI6MTkwMDAwMDAwMH0.syntheticJwtSignatureHereForTesting0987654321",
+    "external_webhook": "https://api_user:SecretWebhookToken999@hooks.slack.internal/services/webhook"
+  },
+  "database": {
+    "connection_string": "Server=tcp:sqlserver.internal.cloud,1433;Database=enterprise;Uid=cloud_user;Pwd=SecretSqlPassword8888;"
+  }
+}

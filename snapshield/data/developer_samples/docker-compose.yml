@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+  database:
+    image: postgres:16
+    environment:
+      POSTGRES_USER: db_admin
+      POSTGRES_PASSWORD: "SuperSecureClusterPassword999!"
+      POSTGRES_DB: analytics_prod
+    ports:
+      - "5432:5432"
+
+  api-gateway:
+    image: synthetic-corp/api:latest
+    environment:
+      PORT: 8080
+      BEARER_AUTH_TOKEN: "Bearer syntheticSecretBearerAuthToken12345678"
+      AWS_KEY: AKIAPRODDEPLOYMENT99
+    depends_on:
+      - database

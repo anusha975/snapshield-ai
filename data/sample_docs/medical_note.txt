@@ -1,0 +1,55 @@
+================================================================================
+APOLLO MEMORIAL HEALTHCARE & RESEARCH INSTITUTE
+DEPARTMENT OF CARDIOLOGY & INTERNAL MEDICINE
+INPATIENT CLINICAL ADMISSION SUMMARY
+================================================================================
+
+PATIENT DEMOGRAPHICS & IDENTIFIERS:
+-----------------------------------
+Patient Name:        John Synthetic Doe
+Age:                 52 Years | Gender: Male
+Medical Record No:   MRN-8849201
+Health ID (Aadhaar): 9999 9999 0019
+Tax Identifier:      ABCPE1234F
+Permanent Address:   742 Evergreen Street, Pune, Maharashtra 411001
+Emergency Contact:   +91 91234 56789 (Relationship: Next of Kin)
+Contact Email:       patient.doe@synthetic-health.org
+
+ATTENDING CLINICAL TEAM:
+------------------------
+Attending Physician: Dr. Robert Smith, MD (Senior Consultant Cardiologist)
+Assisting Resident:  Dr. Ananya Sharma, MBBS
+Facility:            Apollo Memorial Hospital, Ward 4B, Bed 12
+
+PRIMARY DIAGNOSIS:
+------------------
+Patient diagnosed with acute myocardial infarction and hypertension.
+
+CLINICAL OBSERVATIONS & SYMPTOMS:
+---------------------------------
+• Subject presented with acute symptoms of radiating chest pressure and acute coronary distress.
+• Vital Signs on Admission:
+  - Blood Pressure: 158/98 mmHg
+  - Heart Rate: 94 bpm (Sinus Tachycardia)
+  - SpO2: 95% on room air
+• Laboratory & Biopsy Results:
+  - Serum Troponin-I: Significantly elevated at 4.2 ng/mL.
+  - ECG: ST-segment elevation in leads V1–V4.
+
+TREATMENT & PRESCRIPTION PLAN:
+------------------------------
+1. Emergency cardiac catheterization and percutaneous coronary intervention performed.
+2. Prescription for chemotherapy adjuvant and cardioprotective regimen.
+3. Medication Dosage:
+   - Aspirin 75mg once daily
+   - Clopidogrel 75mg once daily
+   - Atorvastatin 80mg at bedtime
+   - Metoprolol 25mg twice daily
+4. Continuous telemetry monitoring in Coronary Care Unit (CCU).
+
+INSURANCE & BILLING:
+--------------------
+Primary Insurance Policy: POL-MED-992183
+Reimbursement Bank Account: 987654321012345
+Branch IFSC: HDFC0001234
+================================================================================

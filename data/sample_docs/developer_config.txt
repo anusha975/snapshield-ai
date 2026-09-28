@@ -1,0 +1,37 @@
+# ==============================================================================
+# SNAPSHIELD BACKEND PRODUCTION INFRASTRUCTURE CONFIGURATION
+# WARNING: STRICTLY CONFIDENTIAL - DO NOT COMMIT OR TRANSMIT TO UNTRUSTED LLMs
+# ==============================================================================
+
+# Core Application Settings
+APP_ENV=production
+DEBUG=False
+SERVICE_NAME="snapshield-pipeline-gateway"
+SERVER_BIND_IP=192.168.1.150
+GATEWAY_IP=10.0.4.1
+PRIMARY_PORT=8443
+
+# Security & Infrastructure Credentials
+ADMIN_CONTACT_EMAIL="devops.alerts@snapshield-internal-synthetic.io"
+SUPPORT_EMAIL="security-response@snapshield-internal-synthetic.io"
+
+# Database Connection Strings (PostgreSQL & Redis)
+DATABASE_URL="postgresql://db_admin:UltraSecretPass99_2026!#$@db-cluster.internal.snapshield.io:5432/production_analytics"
+REDIS_URL="redis://:RedisMasterAuthPassToken2026@cache.internal.snapshield.io:6379/0"
+
+# Upstream AI Provider API Keys
+OPENAI_API_KEY="sk-proj-abC1234567890defGHIJKLMnoPQRSTuvwxYZ12345678"
+ANTHROPIC_API_KEY="sk-ant-api03-abcdef1234567890ABCDEF1234567890abcdef1234567890ABCDEF12345678901234567890-aB1cDeFgAA"
+
+# Cloud Storage & IAM Credentials
+AWS_ACCESS_KEY_ID="AKIAIOSFODNN7EXAMPLE"
+AWS_SECRET_ACCESS_KEY="wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY"
+AWS_DEFAULT_REGION="ap-south-1"
+
+# Microservice JWT Authorization Token
+JWT_SECRET_KEY="SuperSecretJwtSigningKeyWithHighEntropy2026"
+AUTHORIZATION_HEADER="Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IlN5bnRoZXRpYyBVc2VyIiwiYWRtaW4iOnRydWUsImlhdCI6MTcwMDAwMDAwMH0.3SyntheticSignatureForTestingPurposesOnlyX9"
+
+# System User Credentials
+DEPLOYER_USERNAME="deployer_robot"
+DEPLOYER_PASSWORD="pAssw0rd_SuperSecret_2026!#$"

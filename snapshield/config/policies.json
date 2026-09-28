@@ -1,0 +1,40 @@
+{
+  "version": "1.0.0",
+  "default_action": "REVIEW",
+  "policies": {
+    "Personal": {
+      "description": "Protects personal identifiable information, financial records, and medical data.",
+      "rules": {
+        "Aadhaar": "REDACT",
+        "PAN": "REDACT",
+        "Phone": "REDACT",
+        "Bank Account": "REDACT",
+        "IFSC": "REDACT",
+        "Email": "ALLOW",
+        "Medical Information": "REDACT"
+      }
+    },
+    "Developer": {
+      "description": "Protects source code, API keys, passwords, and tokens while permitting non-sensitive technical exchange.",
+      "rules": {
+        "API_KEY": "BLOCK",
+        "PASSWORD": "BLOCK",
+        "JWT": "BLOCK",
+        "Email": "ALLOW",
+        "IP_ADDRESS": "REVIEW",
+        "Code": "ALLOW"
+      }
+    },
+    "Medical": {
+      "description": "Protects patient medical records, clinical diagnoses, and health identifiers.",
+      "rules": {
+        "Medical Information": "REDACT",
+        "Patient Identifier": "BLOCK",
+        "Aadhaar": "REDACT",
+        "Phone": "REDACT",
+        "Email": "REDACT",
+        "Address": "REDACT"
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+# SnapShield AI Dependencies
+streamlit>=1.30.0
+matplotlib>=3.8.0
+pdfplumber>=0.11.0
+pillow>=10.2.0
+onnxruntime>=1.17.0
+numpy>=1.26.0
+pydantic>=2.5.0
+pydantic-settings>=2.1.0
+pyyaml>=6.0.1
+python-dotenv>=1.0.0
+pytesseract>=0.3.10
+requests>=2.31.0
